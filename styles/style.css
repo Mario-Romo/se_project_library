@@ -394,10 +394,6 @@
   margin: 0 0 32px;
 }
 
-.about__paragraph: last-child {
-  margin-bottom: 0;
-}
-
 .footer {
   box-sizing: border-box;
   background-color: #000000;
@@ -436,7 +432,7 @@
   line-height: 20px;
 }
 
-.footer__list-item-last p::nth-last-of-type(3n) {
+.footer__list-item-last p:nth-last-of-type(3n) {
   margin-bottom: 0;
 }
 
