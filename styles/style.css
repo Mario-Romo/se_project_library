@@ -42,7 +42,7 @@
   font-weight: bold;
 }
 
-.nav__link-hover:hover {
+.nav__link:hover {
   color: #1f69c9;
 }
 
@@ -82,7 +82,7 @@
   text-decoration: none;
 }
 
-.header__link-hover:hover {
+.header__link:hover {
   color: #1f69c9;
 }
 
@@ -100,7 +100,7 @@
   background-color: #f2f2f2;
 }
 
-.events__events-hover:hover {
+.events__more:hover {
   color: #1f69c9;
 }
 
