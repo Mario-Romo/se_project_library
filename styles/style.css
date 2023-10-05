@@ -51,13 +51,15 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin: 128px 0 0;
+  /*Correction #1: Resetting margins to default*/
+  margin: 150px 0 0;
 }
 
 .header__description {
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
+  /*Correction #1: Resetting margins to default*/
   margin: 32px 0 0;
 }
 
@@ -394,9 +396,15 @@
   margin: 0 0 32px;
 }
 
+/*Correction #2: Pseudo class for last child*/
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  /*Correction #3: correcting background color*/
+  background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 60px 80px;
 }
@@ -432,7 +440,8 @@
   line-height: 20px;
 }
 
-.footer__list-item-last p:nth-last-of-type(3n) {
+/*Correction #4: Resetting bottom margin of last item using pseudo class*/
+.footer__list-item:last-of-type {
   margin-bottom: 0;
 }
 
