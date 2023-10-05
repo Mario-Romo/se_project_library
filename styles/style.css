@@ -52,7 +52,7 @@
   line-height: 76px;
   font-weight: 500;
   /*Correction #1: Resetting margins to default*/
-  margin: 150px 0 0;
+  margin: 128px 0 0;
 }
 
 .header__description {
@@ -340,6 +340,8 @@
   font-weight: 700;
   display: flex;
   align-items: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .step__icon {
